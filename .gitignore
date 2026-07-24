@@ -8,7 +8,7 @@
 # Debug files
 *.pdb
 
-# VS Code settings
+# VS Code 
 .vscode/
 
 # Temporary files
