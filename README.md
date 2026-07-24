@@ -2,7 +2,7 @@
 
 # 🚀 150 DSA Sheet in C++
 
-### Solving **Prince Singh's 150 DSA Sheet** in **C++**
+### Solving **150 DSA Sheet** in **C++**
 
 <p>
 <img src="https://img.shields.io/github/last-commit/s-choudhary-1593/150-Sheet?style=for-the-badge" />
@@ -25,7 +25,7 @@
 
 # 📖 About
 
-This repository contains my solutions to **Prince Singh's 150 DSA Sheet**, implemented in **C++**.
+This repository contains my solutions to **150 DSA Sheet**, implemented in **C++**.
 
 The objective of this repository is to:
 
