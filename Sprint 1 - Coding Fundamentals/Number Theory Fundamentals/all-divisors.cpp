@@ -5,11 +5,13 @@ using namespace std;
 int main()
 {
     int N;
+
     cout << "Enter a number: ";
     cin >> N;
 
     cout << "Divisors: ";
 
+    // Print smaller divisors
     for (int i = 1; i <= sqrt(N); i++)
     {
         if (N % i == 0)
@@ -17,6 +19,8 @@ int main()
             cout << i << " ";
         }
     }
+
+    // Print larger divisors in sorted order
     for (int i = sqrt(N); i >= 1; i--)
     {
         if (N % i == 0)
