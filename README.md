@@ -121,15 +121,14 @@ The objective of this repository is to:
 ```text
 Solved: 16 / 150 Questions
 ```
-Solved: 16 / 150 Questions
-
-Sprint 1 Progress:
-✅ Basic Math & Arithmetic
-✅ Number Theory Fundamentals
-🟡 Conditionals & Logic
-⬜ Loops & Patterns
-⬜ Strings
-⬜ Arrays & Data Operations
+| Sprint 1 Module | Status |
+|-----------------|:------:|
+| Basic Math & Arithmetic | ✅ |
+| Number Theory Fundamentals | ✅ |
+| Conditionals & Logic | 🟡 |
+| Loops & Patterns | ⬜ |
+| Strings | ⬜ |
+| Arrays & Data Operations | ⬜ |
 
 ---
 
