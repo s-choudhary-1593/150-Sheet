@@ -121,8 +121,15 @@ The objective of this repository is to:
 ```text
 Solved: 16 / 150 Questions
 ```
+Solved: 16 / 150 Questions
 
-🟡 **Currently Working On:** Reverse Number
+Sprint 1 Progress:
+✅ Basic Math & Arithmetic
+✅ Number Theory Fundamentals
+🟡 Conditionals & Logic
+⬜ Loops & Patterns
+⬜ Strings
+⬜ Arrays & Data Operations
 
 ---
 
@@ -130,9 +137,21 @@ Solved: 16 / 150 Questions
 
 ```text
 Solve Q001 - Hello World
-Solve Q002 - Arithmetic and Swap
-Solve Q003 - Even Odd Check
-...
+Solve Q002 - Arithmetic & Swap
+Solve Q003 - Even / Odd
+Solve Q004 - Sum of First N Natural Numbers
+Solve Q005 - Factorial
+Solve Q006 - Prime Check
+Solve Q007 - GCD (Euclidean Algorithm)
+Solve Q008 - LCM
+Solve Q009 - Fibonacci Sequence
+Solve Q010 - Count & Sum of Digits
+Solve Q011 - Reverse a Number
+Solve Q012 - Check Palindrome Number
+Solve Q013 - Armstrong Number Checker
+Solve Q014 - Perfect Number Checker
+Solve Q015 - Find All Divisors of a Number
+Solve Q016 - Power of a Number (Iterative & Recursive)
 ```
 
 ---
