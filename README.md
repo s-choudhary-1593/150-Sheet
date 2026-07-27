@@ -68,7 +68,13 @@ The objective of this repository is to:
 │   │
 │   └── 📁 Number Theory Fundamentals
 │       ├── fibonacci.cpp
-│       └── count-sum-digits.cpp
+│       ├── count-sum-digits.cpp
+│       ├── reverse-number.cpp
+│       ├── palindrome-number.cpp
+│       ├── armstrong-number.cpp
+│       ├── perfect-number.cpp
+│       ├── find-all-divisors.cpp
+│       └── power-number.cpp
 │
 ├── 📄 README.md
 └── 📄 .gitignore
@@ -93,22 +99,36 @@ The objective of this repository is to:
 | Q007 | GCD (Euclidean Algorithm) | ✅ |
 | Q008 | LCM | ✅ |
 
+
 ### ✅ Number Theory Fundamentals
 
-| # | Problem | Status |
-|---|---------|:------:|
-| Q009 | Fibonacci Sequence | ✅ |
-| Q010 | Count & Sum of Digits | ✅ |
+| #    | Problem                                   | Status |
+| ---- | ----------------------------------------- | :----: |
+| Q009 | Fibonacci Sequence                        |    ✅   |
+| Q010 | Count & Sum of Digits                     |    ✅   |
+| Q011 | Reverse a Number                          |    ✅   |
+| Q012 | Check Palindrome Number                   |    ✅   |
+| Q013 | Armstrong Number Checker                  |    ✅   |
+| Q014 | Perfect Number Checker                    |    ✅   |
+| Q015 | Find All Divisors of a Number             |    ✅   |
+| Q016 | Power of a Number (Iterative & Recursive) |    ✅   |
+
 
 ---
 
 # 🎯 Current Progress
 
 ```text
-Solved: 10 / 150 Questions
+Solved: 16 / 150 Questions
 ```
-
-🟡 **Currently Working On:** Reverse Number
+| Sprint 1 Module | Status |
+|-----------------|:------:|
+| Basic Math & Arithmetic | ✅ |
+| Number Theory Fundamentals | ✅ |
+| Conditionals & Logic | 🟡 |
+| Loops & Patterns | ⬜ |
+| Strings | ⬜ |
+| Arrays & Data Operations | ⬜ |
 
 ---
 
@@ -116,9 +136,21 @@ Solved: 10 / 150 Questions
 
 ```text
 Solve Q001 - Hello World
-Solve Q002 - Arithmetic and Swap
-Solve Q003 - Even Odd Check
-...
+Solve Q002 - Arithmetic & Swap
+Solve Q003 - Even / Odd
+Solve Q004 - Sum of First N Natural Numbers
+Solve Q005 - Factorial
+Solve Q006 - Prime Check
+Solve Q007 - GCD (Euclidean Algorithm)
+Solve Q008 - LCM
+Solve Q009 - Fibonacci Sequence
+Solve Q010 - Count & Sum of Digits
+Solve Q011 - Reverse a Number
+Solve Q012 - Check Palindrome Number
+Solve Q013 - Armstrong Number Checker
+Solve Q014 - Perfect Number Checker
+Solve Q015 - Find All Divisors of a Number
+Solve Q016 - Power of a Number (Iterative & Recursive)
 ```
 
 ---
