@@ -7,6 +7,11 @@ int main()
     int N;
     cout << "Enter a number: ";
     cin >> N;
+    if (N < 2)
+    {
+        cout << "The number is not Prime";
+        return 0;
+    }
 
     // for loop to check if N is prime using break statement
     int i;
@@ -26,19 +31,42 @@ int main()
         cout << "The number is not Prime: " << N << endl;
     }
 
-    //using continue statement to check if N is prime
-    for(i=3;i<= sqrt(N);i++){
-        if(i>2 && i%2==0){
-            continue;
-        }
-    }
-    if (N%i==0)
+    // using continue statement to check if N is prime
+    bool isPrime = true;
+
+    if (N == 2)
     {
-        cout << "The number is not Prime: " << N << endl;
+        isPrime = true;
+    }
+    else if (N % 2 == 0)
+    {
+        isPrime = false;
     }
     else
     {
-        cout << "The number is Prime: " << N << endl;
+        for (int j = 3; j <= sqrt(N); j++)
+        {
+            if (j % 2 == 0)
+            {
+                continue;
+            }
+
+            if (N % j == 0)
+            {
+                isPrime = false;
+                break;
+            }
+        }
     }
-    
+
+    if (isPrime)
+    {
+        cout << "Using continue : Prime";
+    }
+    else
+    {
+        cout << "Using continue : Not Prime";
+    }
+
+    return 0;
 }
