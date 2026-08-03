@@ -66,15 +66,37 @@ The objective of this repository is to:
 │   │   ├── prime-check.cpp
 │   │   └── sum-n-numbers.cpp
 │   │
-│   └── 📁 Number Theory Fundamentals
-│       ├── fibonacci.cpp
-│       ├── count-sum-digits.cpp
-│       ├── reverse-number.cpp
-│       ├── palindrome-number.cpp
-│       ├── armstrong-number.cpp
-│       ├── perfect-number.cpp
-│       ├── find-all-divisors.cpp
-│       └── power-number.cpp
+│   ├── 📁 Number Theory Fundamentals
+│   │   ├── fibonacci.cpp
+│   │   ├── count-sum-digits.cpp
+│   │   ├── reverse-number.cpp
+│   │   ├── palindrome-number.cpp
+│   │   ├── armstrong-number.cpp
+│   │   ├── perfect-number.cpp
+│   │   ├── find-all-divisors.cpp
+│   │   └── power-number.cpp
+│   │
+│   ├── 📁 Conditionals & Logic
+│   │   ├── largest-three.cpp
+│   │   ├── leap-year.cpp
+│   │   ├── grade-calculator.cpp
+│   │   ├── triangle-validity.cpp
+│   │   ├── simple-calculator.cpp
+│   │   ├── temperature-converter.cpp
+│   │   ├── fizzbuzz.cpp
+│   │   └── voter-eligibility.cpp
+│   │
+│   └── 📁 Loops & Patterns
+│       ├── multiplication-table.cpp
+│       ├── primes-range.cpp
+│       ├── sum-odd-range.cpp
+│       ├── digital-root.cpp
+│       ├── right-triangle.cpp
+│       ├── inverted-triangle.cpp
+│       ├── floyd-triangle.cpp
+│       ├── pyramid.cpp
+│       ├── hollow-rectangle.cpp
+│       └── harshad-number.cpp
 │
 ├── 📄 README.md
 └── 📄 .gitignore
@@ -114,21 +136,55 @@ The objective of this repository is to:
 | Q016 | Power of a Number (Iterative & Recursive) |    ✅   |
 
 
+### ✅ Conditionals & Logic
+
+| # | Problem | Status |
+|---|---------|:------:|
+| Q017 | Largest of Three Numbers | ✅ |
+| Q018 | Leap Year Checker | ✅ |
+| Q019 | Grade Calculator | ✅ |
+| Q020 | Triangle Validity and Type | ✅ |
+| Q021 | Simple Calculator with Error Handling | ✅ |
+| Q022 | Temperature Scale Converter | ✅ |
+| Q023 | FizzBuzz | ✅ |
+| Q024 | Voter Eligibility | ✅ |
+
+---
+
+### ✅ Loops & Patterns
+
+| # | Problem | Status |
+|---|---------|:------:|
+| Q025 | Multiplication Table Printer | ✅ |
+| Q026 | Print Primes in a Range | ✅ |
+| Q027 | Sum of Odd Numbers in Range | ✅ |
+| Q028 | Digital Root (Repeated Digit Sum) | ✅ |
+| Q029 | Right-Aligned Star Triangle | ✅ |
+| Q030 | Inverted Star Triangle | ✅ |
+| Q031 | Floyd's Triangle | ✅ |
+| Q032 | Pyramid of Stars | ✅ |
+| Q033 | Hollow Rectangle Pattern | ✅ |
+| Q034 | Harshad Number Checker | ✅ |
+
+---
+
+
 ---
 
 # 🎯 Current Progress
 
 ```text
-Solved: 16 / 150 Questions
+Solved: 34 / 150 Questions
 ```
-| Sprint 1 Module | Status |
-|-----------------|:------:|
-| Basic Math & Arithmetic | ✅ |
-| Number Theory Fundamentals | ✅ |
-| Conditionals & Logic | 🟡 |
-| Loops & Patterns | ⬜ |
-| Strings | ⬜ |
-| Arrays & Data Operations | ⬜ |
+| Sprint 1 Module            | Status |
+| -------------------------- | :----: |
+| Basic Math & Arithmetic    |    ✅   |
+| Number Theory Fundamentals |    ✅   |
+| Conditionals & Logic       |    ✅   |
+| Loops & Patterns           |    ✅   |
+| Strings                    |    ⬜   |
+| Arrays & Data Operations   |    ⬜   |
+
 
 ---
 
@@ -151,6 +207,24 @@ Solve Q013 - Armstrong Number Checker
 Solve Q014 - Perfect Number Checker
 Solve Q015 - Find All Divisors of a Number
 Solve Q016 - Power of a Number (Iterative & Recursive)
+Solve Q017 - Largest of Three Numbers
+Solve Q018 - Leap Year Checker
+Solve Q019 - Grade Calculator
+Solve Q020 - Triangle Validity and Type
+Solve Q021 - Simple Calculator with Error Handling
+Solve Q022 - Temperature Scale Converter
+Solve Q023 - FizzBuzz
+Solve Q024 - Voter Eligibility
+Solve Q025 - Multiplication Table Printer
+Solve Q026 - Print Primes in a Range
+Solve Q027 - Sum of Odd Numbers in Range
+Solve Q028 - Digital Root (Repeated Digit Sum)
+Solve Q029 - Right-Aligned Star Triangle
+Solve Q030 - Inverted Star Triangle
+Solve Q031 - Floyd's Triangle
+Solve Q032 - Pyramid of Stars
+Solve Q033 - Hollow Rectangle Pattern
+Solve Q034 - Harshad Number Checker
 ```
 
 ---
