@@ -29,23 +29,23 @@ This repository contains my solutions to **150 DSA Sheet**, implemented in **C++
 
 The objective of this repository is to:
 
-- 🧠 Build strong problem-solving skills
-- 📚 Master Data Structures & Algorithms
-- 💻 Prepare for coding interviews
-- 🚀 Maintain consistency through daily practice
-- 📈 Track learning progress using Git & GitHub
+* 🧠 Build strong problem-solving skills
+* 📚 Master Data Structures & Algorithms
+* 💻 Prepare for coding interviews
+* 🚀 Maintain consistency through daily practice
+* 📈 Track learning progress using Git & GitHub
 
 ---
 
 # 🛠 Tech Stack
 
-| Category | Technology |
-|----------|------------|
-| 💻 Language | C++ |
-| ⚙️ Compiler | GCC (WinLibs) |
-| 🧑‍💻 IDE | Visual Studio Code |
-| 🌱 Version Control | Git |
-| ☁️ Repository | GitHub |
+| Category           | Technology         |
+| ------------------ | ------------------ |
+| 💻 Language        | C++                |
+| ⚙️ Compiler        | GCC (WinLibs)      |
+| 🧑‍💻 IDE          | Visual Studio Code |
+| 🌱 Version Control | Git                |
+| ☁️ Repository      | GitHub             |
 
 ---
 
@@ -86,17 +86,26 @@ The objective of this repository is to:
 │   │   ├── fizzbuzz.cpp
 │   │   └── voter-eligibility.cpp
 │   │
-│   └── 📁 Loops & Patterns
-│       ├── multiplication-table.cpp
-│       ├── primes-range.cpp
-│       ├── sum-odd-range.cpp
-│       ├── digital-root.cpp
-│       ├── right-triangle.cpp
-│       ├── inverted-triangle.cpp
-│       ├── floyd-triangle.cpp
-│       ├── pyramid.cpp
-│       ├── hollow-rectangle.cpp
-│       └── harshad-number.cpp
+│   ├── 📁 Loops & Patterns
+│   │   ├── multiplication-table.cpp
+│   │   ├── primes-range.cpp
+│   │   ├── sum-odd-range.cpp
+│   │   ├── digital-root.cpp
+│   │   ├── right-triangle.cpp
+│   │   ├── inverted-triangle.cpp
+│   │   ├── floyd-triangle.cpp
+│   │   ├── pyramid.cpp
+│   │   ├── hollow-rectangle.cpp
+│   │   └── harshad-number.cpp
+│   │
+│   └── 📁 Strings
+│       ├── vowels-consonants.cpp
+│       ├── palindrome-string.cpp
+│       ├── anagram.cpp
+│       ├── keyword-occurrence.cpp
+│       ├── caesar-cipher.cpp
+│       ├── string-compression.cpp
+│       └── remove-duplicates.cpp
 │
 ├── 📄 README.md
 └── 📄 .gitignore
@@ -110,17 +119,16 @@ The objective of this repository is to:
 
 ### ✅ Basic Math & Arithmetic
 
-| # | Problem | Status |
-|---|---------|:------:|
-| Q001 | Hello World | ✅ |
-| Q002 | Arithmetic & Swap | ✅ |
-| Q003 | Even / Odd | ✅ |
-| Q004 | Sum of First N Natural Numbers | ✅ |
-| Q005 | Factorial | ✅ |
-| Q006 | Prime Check | ✅ |
-| Q007 | GCD (Euclidean Algorithm) | ✅ |
-| Q008 | LCM | ✅ |
-
+| #    | Problem                        | Status |
+| ---- | ------------------------------ | :----: |
+| Q001 | Hello World                    |    ✅   |
+| Q002 | Arithmetic & Swap              |    ✅   |
+| Q003 | Even / Odd                     |    ✅   |
+| Q004 | Sum of First N Natural Numbers |    ✅   |
+| Q005 | Factorial                      |    ✅   |
+| Q006 | Prime Check                    |    ✅   |
+| Q007 | GCD (Euclidean Algorithm)      |    ✅   |
+| Q008 | LCM                            |    ✅   |
 
 ### ✅ Number Theory Fundamentals
 
@@ -135,56 +143,66 @@ The objective of this repository is to:
 | Q015 | Find All Divisors of a Number             |    ✅   |
 | Q016 | Power of a Number (Iterative & Recursive) |    ✅   |
 
-
 ### ✅ Conditionals & Logic
 
-| # | Problem | Status |
-|---|---------|:------:|
-| Q017 | Largest of Three Numbers | ✅ |
-| Q018 | Leap Year Checker | ✅ |
-| Q019 | Grade Calculator | ✅ |
-| Q020 | Triangle Validity and Type | ✅ |
-| Q021 | Simple Calculator with Error Handling | ✅ |
-| Q022 | Temperature Scale Converter | ✅ |
-| Q023 | FizzBuzz | ✅ |
-| Q024 | Voter Eligibility | ✅ |
+| #    | Problem                               | Status |
+| ---- | ------------------------------------- | :----: |
+| Q017 | Largest of Three Numbers              |    ✅   |
+| Q018 | Leap Year Checker                     |    ✅   |
+| Q019 | Grade Calculator                      |    ✅   |
+| Q020 | Triangle Validity and Type            |    ✅   |
+| Q021 | Simple Calculator with Error Handling |    ✅   |
+| Q022 | Temperature Scale Converter           |    ✅   |
+| Q023 | FizzBuzz                              |    ✅   |
+| Q024 | Voter Eligibility                     |    ✅   |
 
 ---
 
 ### ✅ Loops & Patterns
 
-| # | Problem | Status |
-|---|---------|:------:|
-| Q025 | Multiplication Table Printer | ✅ |
-| Q026 | Print Primes in a Range | ✅ |
-| Q027 | Sum of Odd Numbers in Range | ✅ |
-| Q028 | Digital Root (Repeated Digit Sum) | ✅ |
-| Q029 | Right-Aligned Star Triangle | ✅ |
-| Q030 | Inverted Star Triangle | ✅ |
-| Q031 | Floyd's Triangle | ✅ |
-| Q032 | Pyramid of Stars | ✅ |
-| Q033 | Hollow Rectangle Pattern | ✅ |
-| Q034 | Harshad Number Checker | ✅ |
+| #    | Problem                           | Status |
+| ---- | --------------------------------- | :----: |
+| Q025 | Multiplication Table Printer      |    ✅   |
+| Q026 | Print Primes in a Range           |    ✅   |
+| Q027 | Sum of Odd Numbers in Range       |    ✅   |
+| Q028 | Digital Root (Repeated Digit Sum) |    ✅   |
+| Q029 | Right-Aligned Star Triangle       |    ✅   |
+| Q030 | Inverted Star Triangle            |    ✅   |
+| Q031 | Floyd's Triangle                  |    ✅   |
+| Q032 | Pyramid of Stars                  |    ✅   |
+| Q033 | Hollow Rectangle Pattern          |    ✅   |
+| Q034 | Harshad Number Checker            |    ✅   |
 
 ---
 
+### ✅ Strings
+
+| #    | Problem                     | Status |
+| ---- | --------------------------- | :----: |
+| Q035 | Vowels & Consonants         |    ✅   |
+| Q036 | Palindrome String           |    ✅   |
+| Q037 | Anagram Checker             |    ✅   |
+| Q038 | Keyword Occurrence Counter  |    ✅   |
+| Q039 | Caesar Cipher               |    ✅   |
+| Q040 | String Compression          |    ✅   |
+| Q041 | Remove Duplicate Characters |    ✅   |
 
 ---
 
 # 🎯 Current Progress
 
 ```text
-Solved: 34 / 150 Questions
+Solved: 41 / 150 Questions
 ```
+
 | Sprint 1 Module            | Status |
 | -------------------------- | :----: |
 | Basic Math & Arithmetic    |    ✅   |
 | Number Theory Fundamentals |    ✅   |
 | Conditionals & Logic       |    ✅   |
 | Loops & Patterns           |    ✅   |
-| Strings                    |    ⬜   |
+| Strings                    |    ✅   |
 | Arrays & Data Operations   |    ⬜   |
-
 
 ---
 
@@ -225,33 +243,39 @@ Solve Q031 - Floyd's Triangle
 Solve Q032 - Pyramid of Stars
 Solve Q033 - Hollow Rectangle Pattern
 Solve Q034 - Harshad Number Checker
+Solve Q035 - Vowels & Consonants
+Solve Q036 - Palindrome String
+Solve Q037 - Anagram Checker
+Solve Q038 - Keyword Occurrence Counter
+Solve Q039 - Caesar Cipher
+Solve Q040 - String Compression
+Solve Q041 - Remove Duplicate Characters
 ```
 
 ---
 
 # 🎯 Goals
 
-- ✅ Complete all 150 DSA problems
-- ✅ Write clean and readable C++ code
-- ✅ Improve algorithmic thinking
-- ✅ Maintain consistent Git commits
-- ✅ Build a strong GitHub portfolio
+* ✅ Complete all 150 DSA problems
+* ✅ Write clean and readable C++ code
+* ✅ Improve algorithmic thinking
+* ✅ Maintain consistent Git commits
+* ✅ Build a strong GitHub portfolio
 
 ---
 
 # 📌 Future Plan
 
-- Arrays
-- Strings
-- Recursion
-- Searching
-- Sorting
-- Binary Search
-- Linked List
-- Stack & Queue
-- Trees
-- Graphs
-- Dynamic Programming
+* Arrays
+* Recursion
+* Searching
+* Sorting
+* Binary Search
+* Linked List
+* Stack & Queue
+* Trees
+* Graphs
+* Dynamic Programming
 
 ---
 
